@@ -67,7 +67,7 @@ function getRandomNumChar()
 // returns a random special character
 function getRandomSpecialChar()
 {
-  var specialCharArray = [" ", "!", '"', "#", "$", "%", "&", "'","(",")", "*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
+  var specialCharArray = ["!", '"', "#", "$", "%", "&", "'","(",")", "*","+",",","-",".","/",":",";","<","=",">","?","@","[","\\","]","^","_","`","{","|","}","~"];
   // pick a random special character
   var randomSpecialChar = specialCharArray[Math.floor(Math.random() * specialCharArray.length)];
   console.log(randomSpecialChar);
