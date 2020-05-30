@@ -74,7 +74,6 @@ function getRandomNumChar()
 {
   // pick a random integer value between 0 and 9
   var randomNumChar = Math.floor(Math.random() * 10);
-  console.log(randomNumChar);
   return randomNumChar;
 }
 
