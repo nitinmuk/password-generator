@@ -56,7 +56,8 @@ function generatePassword()
 // returns a random uppercase character
 function getRandomUpperCaseChar() 
 {
-  //pick a random upper case character code
+  //pick a random upper case character code. 
+  //65 is ASCII/Unicode of A
   var randomUpperCaseCode = 65 + Math.floor(Math.random() * 26);
   return String.fromCharCode(randomUpperCaseCode);
 }
@@ -64,7 +65,8 @@ function getRandomUpperCaseChar()
 //returns a random lowercase character
 function getRandomLowerCaseChar() 
 {
-  // pick a random small case character code
+  // pick a random small case character code. 
+  //97 is ASCII/Unicode of a.
   var randomLowerCaseCode = 97 + Math.floor(Math.random() * 26);
   return String.fromCharCode(randomLowerCaseCode);
 }
