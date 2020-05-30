@@ -1,5 +1,5 @@
-# Unit 03 JavaScript: Password Generator:
-It is an application to generate a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+# Description:
+It is an application to generate a random password based on user-selected criteria. This app runs in the browser and feature dynamically updated HTML and CSS powered by JavaScript. It also features a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 # Screenshots of built password generator application:
 ![Input_Password_Length](./assets/images/readme/Input_Password_Length.JPG)
